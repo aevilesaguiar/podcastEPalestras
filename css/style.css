@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color:#000000 ;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+.color-bg{
+    background-color:#202020 ;
+    height: 100px;
+    font-size: 1.25em;
+
+}
+
+.color-li{
+    background-color:#202020 ;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.color-li:hover{
+    background-color: #282828;
+    padding: 20px;
+    color: rgba(240, 248, 255, 0.808);
+    font-weight: 700;
+}
+
+.main-menu-menu{
+    list-style: none;
+    display: flex;
+    gap: 35px; /*cria um espaçamento entre elementos filhos de nosso elemento pai*/
+    /*flex-direction: column; //alinha um item por linha*/
+    flex-direction: row;/*//row alinha vários itens por linha*/
+    flex-wrap: wrap;/*nossos elementos podem pular para a linha de baixo caso não haja espaço para ele existir na linha de cima*/
+    justify-content: center;/*alinha os itens para o centro horizontal*/
+    align-items:center;/*alinhamos os itens para o centro vertical pai*/
+}
+
+
+
+.info-img{
+    height: 150px;
+}
+
+.info-main{
+    color: rgba(240, 248, 255, 0.575);
+    font-size: 1.25em;
+}
+
+.bg-video{
+    padding: 10px;
+}
+
+.bg-video:hover{
+    background-color: rgba(32, 32, 32, 0.246);
+    opacity:0.5;
+    border-radius: 10px;
+}
+
+iframe{
+    border-radius: 10px;
+}
+
+.titulo{
+    text-align: center;
+    padding: 30px;
+    margin-top: 20px;
+}
+
+
+.titulo-video{
+    font-size: 12px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.color-bg-footer{
+    background-color:#202020 ;
+    height: 100px;
+    font-size: 1em;
+
+}
